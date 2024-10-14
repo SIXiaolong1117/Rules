@@ -11,7 +11,7 @@ set "input_file=%~1"
 set "output_file=%~dpn1_AudioFix.mp4"
 
 :: 分析音频并自动调节音量到适合的水平
-ffmpeg -i "%input_file%" -af "loudnorm" -vcodec copy "%output_file%"
+ffmpeg -i "%input_file%" -af "loudnorm" -map_metadata 0 -movflags use_metadata_tags -vcodec copy "%output_file%"
 
 :: 完成提示
 echo 视频已成功逆时针旋转 90 度，保存为 %output_file%
