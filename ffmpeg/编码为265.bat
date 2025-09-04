@@ -14,5 +14,5 @@ set "output_file=%~dpn1_265.mp4"
 ffmpeg -i "%input_file%" -c:v libx265 -crf 28 -preset slow -threads 12 -map_metadata 0 -movflags use_metadata_tags -c:a copy "%output_file%"
 
 :: 完成提示
-echo 视频已成功逆时针旋转 90 度，保存为 %output_file%
+echo 保存为 %output_file%
 pause
