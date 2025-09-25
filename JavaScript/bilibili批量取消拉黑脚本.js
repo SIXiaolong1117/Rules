@@ -1,3 +1,4 @@
+// 打开 https://account.bilibili.com/account/blacklist，在浏览器开发者工具控制台运行。
 (function() {
   const delay = 1000; // 设置点击间隔为 1 秒
   const targetClass = 'black-btn';
