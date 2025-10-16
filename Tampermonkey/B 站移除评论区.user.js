@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         B 站移除评论区
 // @namespace    https://github.com/SIXiaolong1117/Rules
-// @version      0.1
+// @version      0.2
 // @description  隐藏并移除 Bilibili 页面中的评论区（支持异步加载与单页路由）
+// @license      MIT
+// @icon         https://www.bilibili.com/favicon.ico
 // @author       SI Xiaolong
 // @match        https://www.bilibili.com/*
 // @match        https://m.bilibili.com/*
@@ -59,5 +61,5 @@
         }
     }, 2000);
 
-    console.log('[Tampermonkey] B站评论区已隐藏（安全版）');
+    console.log('[Tampermonkey] B站评论区已隐藏');
 })();

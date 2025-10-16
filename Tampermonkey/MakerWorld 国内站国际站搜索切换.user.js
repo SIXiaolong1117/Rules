@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         MakerWorld 国内站国际站搜索切换
 // @namespace    https://github.com/SIXiaolong1117/Rules
-// @version      0.1
+// @version      0.2
 // @description  在 MakerWorld 搜索框旁边放置转到另一个网站的按钮（.com <-> .com.cn）。
+// @license      MIT
+// @icon         https://makerworld.com.cn/favicon.ico
 // @author       SI Xiaolong
 // @match        https://makerworld.com/*
 // @match        https://makerworld.com.cn/*
